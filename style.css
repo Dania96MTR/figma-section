@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: relative;
+    border: none;
+    outline: none;
+    
+}
+body{
+    background-color: #ffffff;
+    width: 200vh;
+}
+header{
+    margin: 30px 90px;
+}
+
+header , .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.logo{
+    margin-right: auto;
+    gap: 5px;
+}
+button{
+    background-color: #171A31;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 30px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+.main{
+    background-color: #F8F8FA;
+    width: 1110px;
+    height: 628px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+
+}
+section{
+    margin: 40px;
+   padding: 100px 20px;
+}
+.image , section{
+   flex: 1;
+}
+h1{
+    color: #171A31;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+p{
+    color: #171A31;
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.image1 {
+    width: 100%;
+    height: 100%;
+}
+section>button{
+    background-color: #171A31;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 20px 40px;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
+}
+@media  screen and (max-width: 600px) {
+    body{
+       width: max-content;
+       height: 800px;
+        margin: 0 auto;
+    }
+    .main{
+        width: 312px;
+        height: 680px;
+        margin-bottom: 20px;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    header{
+        margin: 30px 5px;
+    }
+    section{
+        margin: 0px;
+       padding: 5px ;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
+@media screen and (min-width: 600px) {
+    body{
+        width: max-content;
+        margin: 0 auto;
+    }
+    .main{
+      width: 700px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+    header{
+        margin: 30px 5px;
+    }
+    
+    
+}
